@@ -16,7 +16,7 @@ import javax.persistence.Id;
 @Setter
 public class Department {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)// auto gen Key
     private long departmentId;
     private String departmentName;
     private String departmentAddress;
